@@ -6,16 +6,26 @@
 @import "./base/reset";
 @import "./base/preset";
 
-//컴포넌트 페이지
-@import "./components/order_type";
+//컴포넌트 공통 페이지
 @import"./components/header_area";
-@import"./components/order_info_area";
-@import"./components/recent_order_area";
-@import"./components/menu_category_area";
-@import"./components/menu_list_area";
 @import"./components/menu_item";
-@import"./components/order_box_area";
-@import"./components/go_to_top";
+@import"./components/amount_select";
+
+//컴포넌트 메뉴 페이지
+@import "./components/menu/order_type";
+@import"./components/menu/order_info_area";
+@import"./components/menu/recent_order_area";
+@import"./components/menu/menu_category_area";
+@import"./components/menu/menu_list_area";
+@import"./components/menu/order_box_area";
+@import"./components/menu/go_to_top";
+
+//컴포넌트 디테일 페이지
+@import"./components/detail/menu_detail";
+@import"./components/detail/menu_review";
+@import"./components/detail/option_popup_area";
+
+
 
 //오더페이지
 @import"./pages/oreder_page";
